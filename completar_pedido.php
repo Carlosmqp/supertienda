@@ -8,7 +8,7 @@ if($_SERVER['REQUEST_METHOD'] ==='POST'){
     require 'vendor/autoload.php';
 
     if(isset($_SESSION['carrito']) && !empty($_SESSION['carrito'])){
-        $cliente = new Kawschool\Cliente;
+        $cliente = new Supertienda\Cliente;
     
         $_params = array(
             'nombre' => $_POST['nombre'],
@@ -20,7 +20,7 @@ if($_SERVER['REQUEST_METHOD'] ==='POST'){
     
         $cliente_id = $cliente->registrar($_params);
     
-        $pedido = new Kawschool\Pedido;
+        $pedido = new Supertienda\Pedido;
     
         $_params = array(
             'cliente_id'=>$cliente_id,

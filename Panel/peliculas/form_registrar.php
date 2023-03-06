@@ -22,7 +22,7 @@ header('Location: ../index.php');
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/estilo.css">
   </head>
 
   <body>
@@ -37,7 +37,10 @@ header('Location: ../index.php');
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="../dashboard.php">Super Tienda</a>
+          <div class="logo">
+            <img class="logo1" src="../../assets/imagenes/logo.png" alt="">
+            <a class="navbar-brand t1" href="../dashboard.php">Super Tienda</a>
+          </div>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav pull-right">

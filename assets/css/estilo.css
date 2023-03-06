@@ -7,6 +7,10 @@
   margin-top: 100px;
 }
 
+.men {
+  border-radius: 10px 10px 10px, 10px;
+}
+
 .u-size-100 {
   width: 100px;
   text-align: center;
@@ -34,6 +38,19 @@
   font-size: 15px;
   margin: 0;
   font-weight: bold;
+}
+
+.t1 {
+  font-size: 30px;
+  margin-top: -5px;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo1 {
+  height: 60px;
 }
 
 /*------------------------------------------------------------------------------------------------------
